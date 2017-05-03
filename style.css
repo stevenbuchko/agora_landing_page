@@ -127,8 +127,10 @@ img{
 #header-about-us{
 	width: 100%;
     z-index: 400;
-    background-image: url('assets/images/about_us_bg.png');
     height: 100%;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 5%;
 }
 
 #header-about-us img {
@@ -141,20 +143,20 @@ img{
 }
 
 .header-inner{
-	display: inherit;
+	display: inline;
 /*	position: relative;*/
 	width: 100%;
 }
 
 
 .overlay{
-	/*background-color: rgba(0, 0, 0, 0.6);*/
-	height: 100%;
-/*	left: 0;*/
-/*	position: fixed;*/
-	top: 0;
-	width: 100%;
-	z-index: 10;
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    top: 20%;
+    left: 50%;
 }
 
 
@@ -1473,7 +1475,7 @@ p.sign-up-message {
   color: #979797;
   font-size: 60px;
   text-align: center;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   line-height: 55px;
 }
 
@@ -1861,11 +1863,6 @@ p.sign-up-message {
     margin-top: 30px;
     position: static;
 }
-
-
-
-
-
 #mainNav {
     height: 100%;
     position: static;
@@ -1885,12 +1882,46 @@ p.sign-up-message {
     position: static;
 }
 
-
-
 #header-phone {
     background: url('./assets/images/about_us_bg.png');
 /*    background-size: cover;*/
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center;
+}
+
+#header-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+#origin-story-title {
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.origin-story-title {
+    height: 100%;
+}
+
+.origin-story-text{
+    text-align: center;
 }
