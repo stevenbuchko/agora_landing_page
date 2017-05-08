@@ -23,8 +23,8 @@
     <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
 
     <!-- Main Style -->
-    <link href="style.css" rel="stylesheet">
     <link href="assets/css/agency.min.css" rel="stylesheet">
+    <link href="style-new.css" rel="stylesheet" />
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
     <!-- Open Sans for body font -->
@@ -53,36 +53,38 @@
     <!-- Start menu area -->
 
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container col-lg-12">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <div class="row">
+            <div class="container col-lg-12">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="http://agoraorg.com"><img src="assets/images/logo_white_png_small.png" alt="logo"></a>
-            </div>
+                    <a class="navbar-brand page-scroll" href="http://agoraorg.com"><img src="assets/images/logo_white_png_small.png" alt="logo"></a>
+                </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.html">Product</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Abous Us</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">FAQ</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="index.html">Product</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#about">Abous Us</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#team">FAQ</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.navbar-collapse -->
         </div>
 
         <!-- /.container-fluid -->
@@ -107,18 +109,22 @@
 
     </header>
 
-<div class="container text-center pagination-center col-centered origin-story-container">
-    <div class="origin-story-wrapper">
-        <div class="origin-story-title col-xs-6 col-xs-offset-3">
-            <h2 id="origin-story-origin"><span style="color:lightslategray">origin </span><span id="origin-story-story" style="color:goldenrod">story</span></h2>
-            <hr>
+    <div class="container text-center pagination-center col-centered origin-story-container">
+        <div class="origin-story-wrapper">
+            <div class="origin-story-title col-xs-6 col-xs-offset-3">
+                <h2 id="origin-story-origin"><span style="color:lightslategray">origin </span><span id="origin-story-story" style="color:goldenrod">story</span></h2>
+                <hr id="origin-story-divider">
+            </div>
         </div>
+
     </div>
-   
-</div>
     <div class="origin-story-text container text-center">
-    <p >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-</div>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+    </div>
+
+    <div class="text-center our-team-container">
+        <h2 id="our-team-title">Our amazing team</h2>
+    </div>
 
 
 
@@ -192,7 +198,6 @@
         jQuery(".features-list-right li:nth-child(4) ").hover(function() {
             jQuery(".feature-img img").attr("src", "assets/images/attachment.png");
         });
-
     </script>
 
 </body>
