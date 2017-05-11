@@ -1857,7 +1857,7 @@ p.sign-up-message {
     margin-top: 30px;
     position: static;
 }
-#mainNav {
+nav#mainNav {
     height: 100%;
     position: static;
 }
@@ -1902,8 +1902,9 @@ p.sign-up-message {
     text-align: center;
 }
 
-#our-team-title {
-    color: darkslategray;
+h2#our-team-title {
+    color: white;
+    font-weight:500;
 }
 
 .our-team-container {
@@ -1914,3 +1915,4 @@ p.sign-up-message {
 #origin-story-divider {
     height: 20px;
 }
+

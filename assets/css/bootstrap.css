@@ -4545,6 +4545,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
 }
+
+
 .navbar-default .navbar-brand {
   color: #777;
 }
@@ -6799,3 +6801,40 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/*BELOW HERE WRITTEN BY GABRIEL GUZMAN*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+div#bs-example-navbar-collapse-1 ul li a {
+    color: white;
+}
+
+
+nav.navbar-default {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+div#bs-example-navbar-collapse-1 ul li button {
+    background-color: sandybrown;
+    color: white;
+}
+
+section.our-team-container {
+    background-color: whitesmoke;
+}
+
+section h2.section-heading {
+/*  font-size: 40px;*/
+  margin-top: 0;
+  margin-bottom: 15px;
+}

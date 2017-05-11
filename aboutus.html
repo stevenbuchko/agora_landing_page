@@ -24,7 +24,7 @@
 
     <!-- Main Style -->
     <link href="assets/css/agency.min.css" rel="stylesheet">
-    <link href="style-new.css" rel="stylesheet" />
+    <link href="style-new.css" rel="stylesheet">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
     <!-- Open Sans for body font -->
@@ -52,8 +52,8 @@
 
     <!-- Start menu area -->
 
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="row">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div id="navbar-row" class="row">
             <div class="container col-lg-12">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header page-scroll">
@@ -76,10 +76,10 @@
                             <a class="page-scroll" href="#about">Abous Us</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#team">FAQ</a>
+                            <a class="page-scroll" href="#team">support/FAQ</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#contact">Contact</a>
+                            <button id="button-custom" class=" page-scroll navbar-btn btn btn-default" href="#contact">Join Agora</button>
                         </li>
                     </ul>
                 </div>
@@ -110,21 +110,81 @@
     </header>
 
     <div class="container text-center pagination-center col-centered origin-story-container">
-        <div class="origin-story-wrapper">
+        <div class="row">
             <div class="origin-story-title col-xs-6 col-xs-offset-3">
-                <h2 id="origin-story-origin"><span style="color:lightslategray">origin </span><span id="origin-story-story" style="color:goldenrod">story</span></h2>
+                <h2 id="origin-story-origin"><span style="color:lightslategray">ORIGIN </span><span id="origin-story-story" style="color:goldenrod">STORY</span></h2>
                 <hr id="origin-story-divider">
             </div>
+            <div class="origin-story-text container text-center">
+
+            </div>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
         </div>
 
     </div>
-    <div class="origin-story-text container text-center">
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-    </div>
 
-    <div class="text-center our-team-container">
-        <h2 id="our-team-title">Our amazing team</h2>
-    </div>
+    <section class="text-center our-team-container ">
+         <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">OUR AMAZING TEAM</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Kay Garland</h4>
+                        <p class="text-muted">Lead Designer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Larry Parker</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Diana Pertersen</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -148,57 +208,6 @@
 
     <!-- Custom js -->
     <script type="text/javascript" src="assets/js/custom.js"></script>
-
-    <script>
-        jQuery(".features-list-left li:nth-child(1) ").click(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/groups.png");
-        });
-        jQuery(".features-list-left li:nth-child(2) ").click(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/attendance.png");
-        });
-        jQuery(".features-list-left li:nth-child(3) ").click(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/announcements.png");
-        });
-        jQuery(".features-list-left li:nth-child(4) ").click(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/member.png");
-        });
-        jQuery(".features-list-right li:nth-child(1) ").click(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/calendar-d.png");
-        });
-        jQuery(".features-list-right li:nth-child(2) ").click(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/events.png");
-        });
-        jQuery(".features-list-right li:nth-child(3) ").click(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/polls.png");
-        });
-        jQuery(".features-list-right li:nth-child(4) ").click(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/attachment.png");
-        });
-        jQuery(".features-list-left li:nth-child(1) ").hover(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/groups.png");
-        });
-        jQuery(".features-list-left li:nth-child(2) ").hover(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/attendance.png");
-        });
-        jQuery(".features-list-left li:nth-child(3) ").hover(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/announcements.png");
-        });
-        jQuery(".features-list-left li:nth-child(4) ").hover(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/member.png");
-        });
-        jQuery(".features-list-right li:nth-child(1) ").hover(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/calendar-d.png");
-        });
-        jQuery(".features-list-right li:nth-child(2) ").hover(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/events.png");
-        });
-        jQuery(".features-list-right li:nth-child(3) ").hover(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/polls.png");
-        });
-        jQuery(".features-list-right li:nth-child(4) ").hover(function() {
-            jQuery(".feature-img img").attr("src", "assets/images/attachment.png");
-        });
-    </script>
 
 </body>
 
