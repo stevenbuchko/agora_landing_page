@@ -6849,3 +6849,41 @@ div.our-team-container {
     background-color: whitesmoke;
     flex: 1 1 auto;
 }
+p.large {
+  font-size: 12px
+}
+
+section h3.section-subheading {
+  font-size: 16px;
+  text-transform: none;
+  font-weight: 400;
+  margin-bottom: 75px
+}
+
+section {
+  padding: 50px 0
+}
+
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px
+}
+
+@media (min-width:768px) {
+  section {
+/*    padding: 150px 0*/
+  }
+}
+
+h2.section-heading + h3 {
+    font-size: 13pt;
+}
+
+div.team-member > .text-muted {
+    font-size: 10pt;
+}
+
+section > .origin-story-container {
+    margin-bottom: 10px;
+}
