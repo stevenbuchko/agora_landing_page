@@ -6822,6 +6822,7 @@ div#bs-example-navbar-collapse-1 ul li a {
 
 nav.navbar-default {
     background-color: rgba(0, 0, 0, 0.6);
+    border-color: transparent;
 }
 
 div#bs-example-navbar-collapse-1 ul li button {
@@ -6831,10 +6832,20 @@ div#bs-example-navbar-collapse-1 ul li button {
 
 section.our-team-container {
     background-color: whitesmoke;
+    flex: 1 1 auto;
 }
 
 section h2.section-heading {
 /*  font-size: 40px;*/
   margin-top: 0;
   margin-bottom: 15px;
+}
+
+#mission-text {
+    position: absolute;
+}
+
+div.our-team-container {
+    background-color: whitesmoke;
+    flex: 1 1 auto;
 }
