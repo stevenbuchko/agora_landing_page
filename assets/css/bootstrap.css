@@ -6902,3 +6902,9 @@ header#header-about-us + section {
     }
     
 }
+
+@media screen and (max-width: 451px) {
+    .header-inner p {
+        font-size: 13pt;
+    }
+}
