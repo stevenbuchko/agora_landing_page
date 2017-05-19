@@ -1957,6 +1957,7 @@ pre code {
   }
   .col-md-6 {
     width: 50%;
+    padding-top: 60px;
   }
   .col-md-5 {
     width: 41.66666667%;
@@ -6817,12 +6818,22 @@ h6 {
 
 div#bs-example-navbar-collapse-1 ul li a {
     color: white;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
+div#bs-example-navbar-collapse-1 ul li a:hover {
+    color: #f5a623;
+}
+
+div#bs-example-navbar-collapse-1 ul li a:active {
+    color: #184c7c;
+}
 
 nav.navbar-default {
     background-color: rgba(0, 0, 0, 0.6);
     border-color: transparent;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 div#bs-example-navbar-collapse-1 ul li button {
@@ -6870,6 +6881,11 @@ section h2.section-heading {
   margin-bottom: 15px
 }
 
+@media (min-width:768px) {
+  section {
+/*    padding: 150px 0*/
+  }
+}
 
 h2.section-heading + h3 {
     font-size: 13pt;
@@ -6881,24 +6897,4 @@ div.team-member > .text-muted {
 
 section > .origin-story-container {
     margin-bottom: 10px;
-}
-
-header#header-about-us + section {
-    padding-top: 0;
-    z-index: 4;
-}
-
-@media screen and (min-width: 960px) {
-    #header-img-div {
-        min-height: 120px;
-        max-height: 529px;
-        float: left;
-        overflow: hidden;
-    }
-    
-    #header-img-div > #header-img {
-        max-width: 100%;
-        z-index: 0;
-    }
-    
 }
