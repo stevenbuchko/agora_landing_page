@@ -6894,6 +6894,7 @@ header#header-about-us + section {
         max-height: 529px;
         float: left;
         overflow: hidden;
+        width: 100%;
     }
     
     #header-img-div > #header-img {
@@ -6906,5 +6907,23 @@ header#header-about-us + section {
 @media screen and (max-width: 451px) {
     .header-inner p {
         font-size: 13pt;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    div.header-bottom {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 360px) {
+    header {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    nav.navbar-default {
+        background-color: black;
     }
 }
