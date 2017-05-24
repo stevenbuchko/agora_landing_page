@@ -6927,3 +6927,27 @@ header#header-about-us + section {
         background-color: black;
     }
 }
+
+@media screen and (max-width: 767px) {
+    nav.navbar-default {
+        padding-left: 30px;
+        padding-right: 25px;
+    }
+}
+
+.navbar-toggle {
+    background-color: #1a5386;
+    border: none;
+}
+
+.navbar-toggle span {
+    color: white;
+}
+
+.navbar-collapse {
+    background-color: black;
+}
+
+.navbar-box-shadow {
+    box-shadow: 0px 10px 5px black;
+}
