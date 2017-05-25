@@ -4581,10 +4581,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-toggle {
   border-color: #ddd;
 }
-.navbar-default .navbar-toggle:hover,
+/*.navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #ddd;
-}
+}*/
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888;
 }
@@ -6819,6 +6819,10 @@ div#bs-example-navbar-collapse-1 ul li a {
     color: white;
 }
 
+div#bs-example-navbar-collapse-1 ul li a:hover {
+    color: #F5A623;
+}
+
 
 nav.navbar-default {
     background-color: rgba(0, 0, 0, 0.6);
@@ -6896,12 +6900,12 @@ header#header-about-us + section {
         overflow: hidden;
         width: 100%;
     }
-    
+
     #header-img-div > #header-img {
         max-width: 100%;
         z-index: 0;
     }
-    
+
 }
 
 @media screen and (max-width: 451px) {
