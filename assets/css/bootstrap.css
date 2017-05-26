@@ -6980,7 +6980,7 @@ ul.navbar-right {
 }
 
 .parallax-2 {
-    height: 160px;
+    height: 300px;
     background-image: url("../images/AdobeStock_88840403.png")
 }
 
@@ -7008,4 +7008,12 @@ ul.navbar-right {
         padding-left: 30px;
         padding-right: 30px;
     }
+}
+
+.team-member h4,
+.team-member p {
+    color: white;
+}
+.team-member .fa {
+    color: goldenrod;
 }
