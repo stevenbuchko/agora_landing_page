@@ -6987,7 +6987,6 @@ ul.navbar-right {
 .team-member-section {
     padding-top: 30px;
     padding-bottom: 20px;
-    margin-left: 
 }
 
 #our-amazing-team-title {
@@ -7002,4 +7001,11 @@ ul.navbar-right {
 
 .our-amazing-team-container {
     padding-top: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .team-member-row .col-sm-2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
