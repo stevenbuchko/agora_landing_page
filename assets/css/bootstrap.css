@@ -6965,11 +6965,41 @@ ul.navbar-right {
     background-image: url("../images/subscribe-bg.jpg");
 
     /* Set a specific height */
-    height: 500px; 
+    height: 100px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax-1 {
+    height: 160px;
+    background-image: url("../images/AdobeStock_88840403.png")
+}
+
+.parallax-2 {
+    height: 160px;
+    background-image: url("../images/AdobeStock_88840403.png")
+}
+
+.team-member-section {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-left: 
+}
+
+#our-amazing-team-title {
+    height: 150px;
+    padding-top: 30px
+    
+}
+
+.title-area .title span.white-text {
+    color: white;
+}
+
+.our-amazing-team-container {
+    padding-top: 40px;
 }
