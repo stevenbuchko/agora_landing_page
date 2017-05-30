@@ -118,7 +118,7 @@ img{
 	float: right;
 	display: inline;
 	width: 100%;
-	background-image: url(assets/images/placeit.jpg);
+	background-image: url(assets/images/new-header-bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
@@ -126,12 +126,20 @@ img{
 }
 
 #header-about-us{
+  float: right;
+	display: inline;
 	width: 100%;
-    z-index: 400;
-    height: 100%;
-    display: inline-block;
-    position: relative;
-    margin-bottom: 5%;
+	background-image: url(assets/images/placeit.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  margin-bottom: 20px;
+
+}
+
+#header-about-us .header-bottom-left {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #header-about-us img {
@@ -165,6 +173,7 @@ img{
 	float: right;
 	width: 100%;
 	height: 100%;
+  padding-top: 50px;
 	text-align: center;
 }
 
@@ -224,7 +233,7 @@ img{
 .header-bottom-left {
 	display: inhert;
 	float: left;
-	padding-top: 25px;
+	padding-top: 100px;
 	padding-right: 0px;
     padding-bottom: 25px;
 	text-align: left;
@@ -1191,6 +1200,14 @@ p.sign-up-message {
 	width: 100%;
 }
 
+#header-about-us .contact-area {
+	display: inline;
+	float: left;
+	margin-top: 0px;
+	padding: 0 0px;
+	width: 100%;
+}
+
 .contact-area {
 	display: inline;
 	float: left;
@@ -1209,6 +1226,11 @@ p.sign-up-message {
 }
 
 #header .contact-form input {
+	height: 50px;
+	border-radius: 10px;
+}
+
+#header-about-us .contact-form input {
 	height: 50px;
 	border-radius: 10px;
 }
@@ -1677,6 +1699,16 @@ p.sign-up-message {
 /*	.header-bottom-right img {
 	  width: 0%;
 	}*/
+
+  #header-about-us .header-bottom-left {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .header-content {
+      padding-top: 0px;
+  }
+
 	.title-area {
 		padding: 0;
 	}
@@ -1751,7 +1783,7 @@ p.sign-up-message {
 	.header-bottom-right {
 	  margin-top: 60px;
 	  white-space: nowrap;
-    
+
 	.header-bottom-right img {
 	  width: 50%;
 	}
@@ -1909,4 +1941,3 @@ h2#our-team-title {
     color: white;
     font-weight:500;
 }
-
