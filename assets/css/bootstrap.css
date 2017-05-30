@@ -6960,12 +6960,12 @@ ul.navbar-right {
     padding-right: 11px;
 }
 
-.parallax { 
+.parallax {
     /* The image used */
     background-image: url("../images/subscribe-bg.jpg");
 
     /* Set a specific height */
-    height: 100px; 
+    height: 100px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -6992,7 +6992,7 @@ ul.navbar-right {
 #our-amazing-team-title {
     height: 150px;
     padding-top: 30px
-    
+
 }
 
 .title-area .title span.white-text {
