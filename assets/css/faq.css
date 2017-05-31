@@ -87,3 +87,11 @@ p.small.text-muted {
         margin-top: 60px
     }
 }
+
+.panel-group {
+    margin-top: 20px;
+}
+
+.categories:nth-child(1) {
+    margin-top: auto;
+}

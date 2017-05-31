@@ -6964,12 +6964,7 @@ ul.navbar-right {
     /* The image used */
     background-image: url("../images/subscribe-bg.jpg");
 
-    /* Set a specific height */
-<<<<<<< HEAD
-    height: 100px;
-=======
-/*    height: 100px; */
->>>>>>> 7f7040671efe0c218c0e65539f8010351b280331
+    /* Set a specific height */ 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
