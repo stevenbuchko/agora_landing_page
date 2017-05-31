@@ -6965,7 +6965,11 @@ ul.navbar-right {
     background-image: url("../images/subscribe-bg.jpg");
 
     /* Set a specific height */
+<<<<<<< HEAD
     height: 100px;
+=======
+/*    height: 100px; */
+>>>>>>> 7f7040671efe0c218c0e65539f8010351b280331
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -6981,7 +6985,8 @@ ul.navbar-right {
 
 .parallax-2 {
     min-height: 300px;
-    background-image: url("../images/AdobeStock_88840403.png")
+    background-image: url("../images/AdobeStock_88840403.png");
+    padding-bottom: 50px;
 }
 
 .team-member-section {
