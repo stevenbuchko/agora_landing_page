@@ -24,17 +24,22 @@
 
 .faq-section .panel-heading {
     background-color: white;
-    color: #f5a623;
+    color: #777;
 }
 
 .faq-section .panel-title {
   text-transform: none;
 }
 
+.panel-group h3 {
+  color: #f5a623;
+}
+
 /* FOR DEMO ONLY */
 body {
     background-color: rgb(245, 245, 245);
     font-size: 16px;
+    font-family: "Source Sans Pro";
 }
 
 header {
