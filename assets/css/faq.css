@@ -35,6 +35,10 @@
   color: #f5a623;
 }
 
+.panel-body a {
+  color: #f5a623;
+}
+
 /* FOR DEMO ONLY */
 body {
     background-color: rgb(245, 245, 245);
