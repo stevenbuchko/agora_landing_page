@@ -39,11 +39,15 @@
   color: #f5a623;
 }
 
+.panel-title {
+  padding-bottom: 0px;
+}
+
 /* FOR DEMO ONLY */
 body {
     background-color: rgb(245, 245, 245);
-    font-size: 16px;
-    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-family: "Open Sans";
 }
 
 header {
