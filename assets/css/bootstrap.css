@@ -6915,6 +6915,10 @@ header#header-about-us + section {
     div.header-bottom {
         margin-top: 40px;
     }
+    
+    .navbar .btn{
+        margin-right: 15px;
+    }
 }
 
 @media screen and (max-width: 767px) and (min-width: 360px) {
@@ -7019,7 +7023,7 @@ nav.navbar-default {
     border-color: transparent;
 }
 
-.navbar-btn {
+.agora-btn {
     background-color:  #f5a623;
     color: white;
     border: none;
