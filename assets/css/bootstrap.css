@@ -6824,10 +6824,7 @@ div#bs-example-navbar-collapse-1 ul li a:hover {
 }
 
 
-nav.navbar-default {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-color: transparent;
-}
+
 
 div#bs-example-navbar-collapse-1 ul li button {
     background-color: sandybrown;
@@ -7010,10 +7007,20 @@ ul.navbar-right {
     }
 }
 
-.team-member h4,
 .team-member p {
     color: white;
 }
 .team-member .fa {
     color: #f5a623;
+}
+
+nav.navbar-default {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: transparent;
+}
+
+.navbar-btn {
+    background-color:  #f5a623;
+    color: white;
+    border: none;
 }
