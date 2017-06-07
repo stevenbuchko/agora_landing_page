@@ -7028,3 +7028,14 @@ nav.navbar-default {
     color: white;
     border: none;
 }
+
+/*POP UP CSS*/
+.modal-body label {
+    font-size: 10pt;
+    font-weight: 100
+}
+
+.modal-header {
+    background-color: #295078;
+    color: white;
+}
