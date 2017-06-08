@@ -1,38 +1,79 @@
 <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="row">
-            <div class="container col-lg-12">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" id="menu-button">
+    <div class="row">
+        <div class="container col-lg-12">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" id="menu-button">
                     <span class="sr-only">Toggle navigation</span> <span id="menu">Menu</span> <i class="fa fa-bars"></i>
                 </button>
-                    <a class="navbar-brand page-scroll" href="index.html"><img src="assets/images/logo_white_png_small.png" alt="logo"></a>
-                </div>
+                <a class="navbar-brand page-scroll" href="index.html"><img src="assets/images/logo_white_png_small.png" alt="logo"></a>
+            </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right ">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right ">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
 
-                            <a class="page-scroll" id="product-link" href="index.html">Product</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" id="aboutus-link" href="aboutus-new.html">About Us</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" id="faq-link" href="faq.html">FAQ</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" id="contact-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
+                        <a class="page-scroll" id="product-link" href="index.html">Product</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" id="aboutus-link" href="aboutus-new.html">About Us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" id="faq-link" href="faq.html">FAQ</a>
+                    </li>
+
+                    <button type="button" class="btn btn-default agora-btn navbar-btn" data-toggle="modal" data-target="#modal-join">Join Agora</button>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </div>
+
+    <!-- /.container-fluid -->
+</nav>
+
+<div id="modal-join" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Join Agora</h4>
+            </div>
+            <div class="modal-body">
+                <form role="form">
+                    <div class="form-group">
+                        <label for="inputemail"> Enter your email here to get your organization started using Agora.</label>
+                        <input type="email" class="form-control" id="inputemail" placeholder="Enter email" />
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" >Close</button>
+                <button type="button" class="btn agora-btn btn-primary">
+                    Sign Up
+                </button>
             </div>
         </div>
 
-        <!-- /.container-fluid -->
-    </nav>
+    </div>
+</div>
+
+<script>
+    $("#menu-button").click(function() {
+        if (!$("#bs-example-navbar-collapse-1").hasClass("in") && !$("#mainNav").hasClass("navbar-box-shadow")) {
+            $("#mainNav").addClass("navbar-box-shadow");
+
+            $(".navbar-default").css("background-color", "black");
+        } else if ($("#bs-example-navbar-collapse-1").hasClass("in") && $("#mainNav").hasClass("navbar-box-shadow")) {
+            $("#mainNav").removeClass("navbar-box-shadow");
+
+            $(".navbar-default").css("background-color", "rgba(0, 0, 0, 0.6)");
+        }
+    })
+</script>
