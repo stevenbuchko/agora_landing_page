@@ -175,7 +175,7 @@ img{
 	height: 100%;
   padding-top: 50px;
 	text-align: center;
-    
+
 }
 
 
@@ -443,6 +443,14 @@ p.sign-up-message {
 	padding-bottom: 20px;
 	position: relative;
 	text-transform: uppercase;
+}
+
+.parallax .col-sm-4 {
+  padding-top: 20px;
+}
+
+.parallax h4 {
+  color: white;
 }
 
 .title-area .title span {
