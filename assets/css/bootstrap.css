@@ -7019,7 +7019,7 @@ ul.navbar-right {
 }
 
 nav.navbar-default {
-    background-color: rgba(24, 76, 124, 1);
+    background-color: rgba(0, 0, 0, .6);
     border-color: transparent;
 }
 
