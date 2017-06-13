@@ -7011,7 +7011,7 @@ ul.navbar-right {
     }
 }
 
-.team-member p {
+.team-member p, .team-member h4 {
     color: white;
 }
 .team-member .fa {
