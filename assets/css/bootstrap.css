@@ -6966,12 +6966,8 @@ ul.navbar-right {
 }
 
 .parallax {
-    /* The image used */
     background-image: url("../images/subscribe-bg.jpg");
 
-    /* Set a specific height */ 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -7046,4 +7042,8 @@ nav.navbar-default {
 
 .modal-header .close {
     color: white;
+}
+
+.modal-open {
+    padding-right: 0px !important;
 }
