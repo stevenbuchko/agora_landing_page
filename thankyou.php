@@ -21,7 +21,7 @@ mail($to,$subject,$thoughts,$header);
   <!-- Font Awesome -->
   <link href="assets/css/font-awesome.css" rel="stylesheet">
   <!-- Bootstrap -->
-  <link href="assets/css/bootstrap-new.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
   <!-- Slick slider -->
   <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
   <!-- Fancybox slider -->
