@@ -1234,12 +1234,16 @@ p.sign-up-message {
     margin: -40px;
 }
 
+#contact form.contact-form-about {
+    margin: -40px;
+}
+
 #header .contact-form input {
 	height: 50px;
 	border-radius: 10px;
 }
 
-#header-about-us .contact-form input {
+#header-about-us .contact-form-about input {
 	height: 50px;
 	border-radius: 10px;
 }
@@ -1249,9 +1253,18 @@ p.sign-up-message {
 	border-radius: 0;
 }
 
-
+.contact-form-about input{
+	height: 45px;
+	border-radius: 0;
+}
 
 .contact-form textarea {
+	border-radius: 0;
+	height: 250px;
+	padding: 15px;
+}
+
+.contact-form-about textarea {
 	border-radius: 0;
 	height: 250px;
 	padding: 15px;
@@ -1270,14 +1283,31 @@ p.sign-up-message {
 	border-radius: 10px;
 }
 
+.contact-form-about .form-control {
+	background-color: rgba(15, 22, 30, 0.8);
+	color: #ffffff;
+	font-size: 16px;
+	box-shadow: none;
+	border-radius: 10px;
+}
+
 
 .contact-form.form-control::-webkit-input-placeholder {
 	color: #ffffff;
 	font-size: 16px;
 }
 
+.contact-form-about.form-control::-webkit-input-placeholder {
+	color: #ffffff;
+	font-size: 16px;
+}
 
 .contact-form .form-control:-moz-placeholder { /* Firefox 18- */
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.contact-form-about .form-control:-moz-placeholder { /* Firefox 18- */
 	color: #ffffff;
 	font-size: 16px;
 }
@@ -1290,6 +1320,17 @@ p.sign-up-message {
 
 
 .contact-form .form-control:-ms-input-placeholder {
+    color: #ffffff;
+   	font-size: 16px;
+}
+
+.contact-form-about .form-control::-moz-placeholder {  /* Firefox 19+ */
+	color: #ffffff;
+	font-size: 16px;
+}
+
+
+.contact-form-about .form-control:-ms-input-placeholder {
     color: #ffffff;
    	font-size: 16px;
 }
