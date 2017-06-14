@@ -192,10 +192,10 @@
       <div class="col-md-2 col-sm-6 paddingtop-bottom">
         <h6 class="heading7">PAGES</h6>
         <ul class="footer-ul">
-          <li><a href="index.html"> Home</a></li>
+          <li><a href="index"> Home</a></li>
           <li><a href="aboutus-new"> About Us</a></li>
           <li><a href="faq"> FAQ</a></li>
-          <li><a href="privacy.php"> Privacy Policy</a></li>
+          <li><a href="privacy"> Privacy Policy</a></li>
           <li> &nbsp; </li>
           <li> &nbsp; </li>
         </ul>
