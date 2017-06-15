@@ -193,7 +193,7 @@
         <h6 class="heading7">PAGES</h6>
         <ul class="footer-ul">
           <li><a href="index"> Product</a></li>
-          <li><a href="aboutus-new"> About Us</a></li>
+          <li><a href="about-us"> About Us</a></li>
           <li><a href="faq"> FAQ</a></li>
           <li><a href="privacy"> Privacy Policy</a></li>
           <li> &nbsp; </li>
