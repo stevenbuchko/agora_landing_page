@@ -385,6 +385,12 @@
             jQuery(".features-list-right li:nth-child(4) ").hover(function() {
                 jQuery(".feature-img img").attr("src", "assets/images/attachment.png");
             });
+            jQuery('#product-contact-form').submit(function (e) {
+              jQuery('#email-success-alert').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
+              document.getElementById("product-contact-form").reset();
+              e.preventDefault();
+              return false;
+            });
         </script>
 
     </body>
