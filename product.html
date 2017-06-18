@@ -69,9 +69,6 @@
 
         <!-- Start menu area -->
 
-        <!-- <div class="alert alert-success">
-          <strong>Success!</strong> Indicates a successful or positive action.
-        </div> -->
 
         <div id="nav-placeholder"></div>
         <script>
@@ -86,6 +83,11 @@
         <!-- End menu area -->
 
         <!-- Start header section -->
+
+        <div id="email-success-alert" class="hide" role="alert">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          <strong>Success!</strong> Please be on the lookout for an email from us in the next 24 hours.
+        </div>
 
 
         <header id="header">
@@ -125,12 +127,12 @@
               </a>  -->
 
                                             <div class="contact-area">
-                                                <form class="contact-form">
+                                                <form id="product-contact-form" class="contact-form" method="post">
                                                     <div class="form-group">
                                                         <input type="email" class="form-control" placeholder="Email">
                                                     </div>
                                                     <div class="send-area">
-                                                        <button type="submit" class="send-btn">Learn More</button>
+                                                        <button type="submit" class="send-btn" >Learn More</button>
                                                     </div>
                                                 </form>
                                             </div>

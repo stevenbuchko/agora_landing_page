@@ -7048,3 +7048,11 @@ nav.navbar-default {
 .modal-open {
     padding-right: 0px !important;
 }
+
+#email-success-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
