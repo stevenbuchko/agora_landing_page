@@ -95,6 +95,10 @@
 
         <!-- End menu area -->
 
+        <div id="email-success-alert" class="hide" role="alert">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          <strong>Success!</strong> Please be on the lookout for an email from us in the next 24 hours.
+        </div>
 
         <!-- Start header section -->
         <header id="header-about-us">
@@ -135,7 +139,7 @@
               </a>  -->
 
                                             <div class="contact-area">
-                                                <form class="contact-form-about">
+                                                <form id="contact-form-about" class="contact-form" method="post">
                                                     <div class="form-group">
                                                         <input type="email" class="form-control" placeholder="Email">
                                                     </div>
@@ -414,8 +418,14 @@
 
 
 
-
-
+      <script>
+        jQuery('#contact-form-about').submit(function (e) {
+          jQuery('#email-success-alert').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
+          document.getElementById("contact-form-about").reset();
+          e.preventDefault();
+          return false;
+        });
+      </script>
 
     </body>
 </div>

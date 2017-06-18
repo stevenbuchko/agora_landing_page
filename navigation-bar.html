@@ -51,7 +51,7 @@
                 <h4 class="modal-title">Join Agora</h4>
             </div>
             <div class="modal-body">
-                <form role="form" class="nav-form">
+                <form role="form" id="contact-form-modal" class="nav-form">
                     <div class="form-group">
                         <label for="inputemail"> Enter your email here to get your organization started using Agora.</label>
                         <input type="email" class="form-control" id="inputemail" placeholder="Enter email" />
@@ -80,4 +80,14 @@
             $(".navbar-default").css("background-color", "rgba(0, 0, 0, 0.6)");
         }
     })
+
+
+    jQuery('#contact-form-modal').submit(function (e) {
+      jQuery('#email-success-alert').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
+      document.getElementById("contact-form-modal").reset();
+      jQuery('#modal-join').modal('hide');
+      e.preventDefault();
+      return false;
+    });
+
 </script>
