@@ -87,10 +87,10 @@
 
         <!-- Start header section -->
 
-        <div id="email-success-alert" class="hide" role="alert">
+        <!-- <div id="email-success-alert" class="hide" role="alert">
           <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
           <strong>Success!</strong> Please be on the lookout for an email from us in the next 24 hours.
-        </div>
+        </div> -->
 
 
         <header id="header">
@@ -390,12 +390,12 @@
             jQuery(".features-list-right li:nth-child(4) ").hover(function() {
                 jQuery(".feature-img img").attr("src", "assets/images/attachment.jpg");
             });
-            jQuery('#product-contact-form').submit(function (e) {
-              jQuery('#email-success-alert').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
-              document.getElementById("product-contact-form").reset();
-              e.preventDefault();
-              return false;
-            });
+            // jQuery('#product-contact-form').submit(function (e) {
+            //   jQuery('#email-success-alert').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
+            //   document.getElementById("product-contact-form").reset();
+            //   e.preventDefault();
+            //   return false;
+            // });
         </script>
 
     </body>
